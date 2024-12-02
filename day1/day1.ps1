@@ -21,7 +21,7 @@ for($i = 0; $i -lt $leftSorted.Count; $i++) {
     }
 }
 
-# Part 1
+#Part 1
 foreach($pair in $sortedPairs) {
     $absoluteDifference = [Math]::Abs($pair.RightColumnValue - $pair.LeftColumnValue)
     $count += $absoluteDifference
